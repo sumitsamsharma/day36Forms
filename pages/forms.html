@@ -89,7 +89,7 @@
             const password = document.querySelector('#password')
             const passError = document.querySelector('.pass-error')
             password.addEventListener('input', function(){
-                let passRegex = RegExp('^(?=.*\\d)(?=.*[a-z])')
+                let passRegex = RegExp('^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!#@%$^=+&])(?=\\S+$).{8,}$')
                 if(passRegex.test(password.value))
                     passError.textContent = ""
                 else 
