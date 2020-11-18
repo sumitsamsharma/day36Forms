@@ -1,0 +1,48 @@
+body{
+    margin: 0px auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+header{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background: tomato;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 20px;
+    height: 60px;
+}
+
+div{
+    display: flex;
+    align-items: center;
+}
+
+label, input, button {
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+label {
+    width: 43%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+button{
+    width: 40%;
+}
+.rightButton {
+    margin-left: 2%;
+}
+.leftButton {
+    margin-right: 2%;
+}
+
+error-output{
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+}
